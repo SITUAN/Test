@@ -1,0 +1,98 @@
+
+@font-face {
+    font-family: openR;
+    src: url(font/OpenSans-Regular.ttf);
+}
+
+.setpad .icon-bar {padding-top: 10px;}
+.show-mb {cursor: pointer;}
+
+.paris-mb .menu {
+    -ms-transform: translate(-110%, 0px);
+    -webkit-transform: translate(-110%, 0px);
+    transform: translate(-110%, 0px);
+    position: fixed;
+    background: rgba(98,176,72,0.4);
+    z-index: 99999;
+    height: 60%;
+    width: 100%;
+    top: 0px;
+    display: block;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.paris-mb .menu.menushow {
+    -ms-transform: translate(0, 0px);
+    -webkit-transform: translate(0, 0px);
+    transform: translate(0, 0px);
+}
+
+.paris-mb .menu article {
+    background: #62b048;
+    max-width: 84%;
+    position: relative;
+    height: 100%;
+}
+.paris-mb .menu .lang {
+    position: absolute;
+    top: 47px;
+    right: 10px;
+}
+
+.paris-mb .menu .menu_close {
+    position: absolute;
+    top: 0;
+    right: -20%;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+}
+.paris-mb .menu .danhmuc ul li a i {
+    color: #12683b;
+    margin-left: 11px;
+}
+
+.paris-mb .menu .menu_close i {
+    top: 50%;
+    left: 0;
+    border-radius: 0 40px 40px 0;
+    padding: 11px;
+    position: absolute;
+    background: #62b048;
+    border-left: 1px solid #12683b;
+}
+.paris-mb .menu .danhmuc_phone {
+    margin: 0 0 0 22px;
+    display: block;
+    padding: 10px 0;
+}
+
+.paris-mb .menu .danhmuc {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #12683b;
+    height: 100%;
+    overflow: auto;
+}
+.paris-mb .menu .danhmuc li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.paris-mb .menu .danhmuc li a {
+    color: #fff;
+    padding: 6px 10px;
+    display: block;
+    border-bottom: 1px solid #12683b;
+    font-size: 14px;
+    font-family: openR;
+}
+.paris-mb .menu .danhmuc>li i {
+    font-size: 18px;
+    margin-right: 2px;
+}
+

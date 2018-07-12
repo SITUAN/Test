@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+	.caption {top: 45%; left: 22%; }
+	.header-top {display: none;}
+	.header-top-m {display: block;}
+	.review-desc {padding: 20px 20px;}
+	.review-desc .title-desc, .review-blog-desc .title-desc {font-size: 16px;}
+	.bloger-title h3:before {margin-left: 41%;}
+	.review-blog-desc p {font-size: 12px;}
+	#section {padding: 30px 0px;}
+	.bloger-title {padding-bottom: 30px;}
+	.review-blog-desc .breacrum {font-size: 11px;}
+	ul.list-tag {padding: 0px 0px;}
+	ul.list-tag li {padding: 0px 14px;}
+
+}
+
+@media (max-width: 414px) {
+	.bloger-title h3:before {margin-left: 33%;}
+}
+
+@media (max-width: 375px) {
+	
+}
