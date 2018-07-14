@@ -11,9 +11,8 @@
     font-family: openB;
     src: url(font/OpenSans-Bold.ttf);
 }
-
 a{moz-transition:all .3s;ms-transition:all .3s;o-transition:all .3s;transition:all .3s;webkit-transition:all .3s}
-a:hover,a:active,a:focus{text-decoration:none!important}
+a:hover,a:active,a:focus{text-decoration:none;}
 img{max-width: 100%;}
 body{font-size: 14px;margin:0;font-family: 'openR', sans-serif;}
 body p{font-size:14px;margin:0;font-family: 'openR', sans-serif;}
@@ -28,8 +27,7 @@ body p{font-size:14px;margin:0;font-family: 'openR', sans-serif;}
 	color: #525252;
 	padding-bottom: 20px;
 }
-
-.header-top-m {display: none; padding: 30px 0px;}
+.header-top-m {display: none;padding: 30px 0px;}
 .header-top-m  .logo {text-align: center;}
 .header-top-m  .logo span {
 	background: url('../images/vong.png') no-repeat;
@@ -120,10 +118,7 @@ body p{font-size:14px;margin:0;font-family: 'openR', sans-serif;}
 	padding: 15px 25px;
 }
 
-#section {
-	padding: 40px 0px;
-}
-.bloger {background: #edecec; text-align: left;}
+.bloger {padding: 40px 0px; background: #edecec; text-align: left;}
 .bloger-title {padding-bottom: 40px;}
 .bloger-title h3{
 	text-align: center;
@@ -154,6 +149,7 @@ body p{font-size:14px;margin:0;font-family: 'openR', sans-serif;}
 .sub-slider {margin-left: -2% !important;}
 .r-sub-slider {margin-right: -2% !important;}
 .you-know {
+	padding: 40px 0px;
 	background: #e5e5e5;
 }
 .review-img {padding: 0px 0px; margin: 0px 0px; position: relative;}
@@ -197,7 +193,7 @@ body p{font-size:14px;margin:0;font-family: 'openR', sans-serif;}
 
 .review-desc .time-meta {text-align: right; font-size: 12px; font-family: openR; padding-top: 30px;padding-bottom: 10px;}
 .review-desc .time-meta b {color: #ff6c6f; padding-right: 5px;  clear: both;}
-.review-blog {background: #edecec;}
+.review-blog {background: #edecec;padding: 40px 0px;}
 
 .review-blog-desc {
 	padding: 0px 20px;
