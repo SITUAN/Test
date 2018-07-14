@@ -28,8 +28,8 @@ body p{font-size:14px;margin:0;font-family: 'openR', sans-serif;}
 	color: #525252;
 	padding-bottom: 20px;
 }
-.header-top-m {display: none;}
-.header-top-m {padding: 30px 0px;}
+
+.header-top-m {display: none; padding: 30px 0px;}
 .header-top-m  .logo {text-align: center;}
 .header-top-m  .logo span {
 	background: url('../images/vong.png') no-repeat;
