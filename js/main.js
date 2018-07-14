@@ -76,15 +76,4 @@ jQuery(document).ready(function($){
 	    },
 	    navText: ["<i class='left-icon-m sub-slider'></i>","<i class='right-icon-m r-sub-slider'></i>"],
 	});
-	
-    $(".tuan li").click(function(e){
-        if (!$(this).hasClass("active")) {
-            var tabNum = $(this).index();
-            var nthChild = tabNum+1;
-            $(".tuan li.active").removeClass("active");
-            $(this).addClass("active");
-            $(".tuanho li.active").removeClass("active");
-            $(".tuanho li:nth-child("+nthChild+")").addClass("active");
-        }
-    });
 });
